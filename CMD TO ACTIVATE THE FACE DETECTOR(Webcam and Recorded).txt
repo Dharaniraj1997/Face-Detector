@@ -1,0 +1,16 @@
+USE cd.. to go back in the cmd prompt
+-----------------------------------------------------------------------------------------------------------------------------
+                                 WEBCAM FEED
+
+1st) E:
+2nd) cd E:\BOOKS NEW\Adrian Rosebrock CV\17 Day\deep-learning-face-detection-DAY 1
+3rd) python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                RECORDED VIDEO
+
+
+1)If you to parse a video file (rather than a video stream) swap out the 'VideoStream'  class for 'FileVideoStream' . 
+2) Remove 'src=' (in VideoStream) and provide the direct path of the video.(REFER detect_faces_for_recorded_vidoes.py)
+3)You can learn more about the FileVideoStream class in this blog post:
+-------->https://www.pyimagesearch.com/2017/02/06/faster-video-file-fps-with-cv2-videocapture-and-opencv/

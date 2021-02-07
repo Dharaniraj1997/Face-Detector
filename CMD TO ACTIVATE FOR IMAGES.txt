@@ -1,0 +1,5 @@
+1) PLACE THE IMAGE IN THE LOCATION WHERETHE CMD PROMPT IS POINTING TO.
+2) REPLACE THE WORD 'rooster' IN THE BELOW COMMAND AND REPLACE IT WITH THE IMAGE NAME. 
+3) POINT THE CMD PROMPT TO THE LOCATION WHERE THIS MODEL IS PRESENT.
+4) Check the extension of the img and replace in the command (eg: jpg,jfif, etc)
+4) python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
